@@ -1,0 +1,31 @@
+{
+	"name": "txt_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorage_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "MAcomplaints.xlsx",
+				"container": "mostafa1"
+			},
+			"columnDelimiter": ",",
+			"compressionCodec": "deflate",
+			"compressionLevel": "Optimal",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PK\u0003\u0004\u0014\u0000\b\u0000\b\u0000\u001dT�Z\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

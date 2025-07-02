@@ -1,0 +1,19 @@
+{
+	"name": "zip_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "BlobStorage_LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "FLAT_CMPL.txt",
+				"container": "mostafa1"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
