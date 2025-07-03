@@ -11,6 +11,9 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": "cmpl/FLAT_CMPL.zip"
+			},
+			"compression": {
+				"type": "ZipDeflate"
 			}
 		}
 	},
