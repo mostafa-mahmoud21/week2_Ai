@@ -12,6 +12,9 @@
 				"type": "AzureBlobStorageLocation",
 				"fileName": "FLAT_CMPL.txt",
 				"container": "mostafa1"
+			},
+			"compression": {
+				"type": "ZipDeflate"
 			}
 		}
 	},
